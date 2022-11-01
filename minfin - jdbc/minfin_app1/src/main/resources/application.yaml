@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: postgres
+    password: 1
+    url: jdbc:postgresql://localhost:5432/minfin1
+  jpa:
+    hibernate:
+      ddl-auto: update
+  rabbitmq:
+    host:
+
+
+server:
+  port: 8080

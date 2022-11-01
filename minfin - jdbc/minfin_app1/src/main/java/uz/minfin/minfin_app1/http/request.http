@@ -1,0 +1,126 @@
+###
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "id": 125,
+  "createdAt": "2022-07-18T12:55:14.238362",
+  "ETP_ID": 1,
+  "REQUEST_ID": 2279590,
+  "METHOD_NAME": "RESULTAT",
+  "PAYLOAD": {
+    "LOTID": 22110031680721,
+    "PROC_ID": 19,
+    "LOTDATE1": null,
+    "LOTDATES1": null,
+    "vendor_terr_name": "\tMirobod tumani",
+    "LOTDATES2": null,
+    "LOTDATE2": null,
+    "CONTRACTNUM": "4",
+    "CONTRACTDAT": "10052022",
+    "CONTRACTDATS": "10.05.2022",
+    "DVR": 3,
+    "ORGAN": "00000000304",
+    "ORGAN_NAME": "Миллатлараро муносабатлар ва хорижий мамлакатлар билан дустлик алокалари кумитаси",
+    "INN": "201121681",
+    "LS": "100010860262877011501040001",
+    "VENDORNAME": "BLACK-POOL",
+    "VENDORBANK": 431,
+    "VENDORACC": "20208000200522756001",
+    "VENDORINN": "303506237",
+    "MALOY": "Y",
+    "SUMMA": 4350000000,
+    "SUMNDS": 0,
+    "SROK": 90,
+    "AVANS": "1305000000",
+    "AVANSDAY": 90,
+    "CONTRACTBEG": "10052022",
+    "CONTRACTBEGS": "10.05.2022",
+    "CONTRACTEND": "31122022",
+    "CONTRACTENDS": "31.12.2022",
+    "PURPOSE": "торжественное мероприятии ПФ300 от 08.06.2022г дог №4 от 10.05.2022г",
+    "VENDORTERR": 26273,
+    "BENEFICIAR": "-",
+    "RASCHOT": 0,
+    "REESTR_ID": 680721,
+    "PNFL": null,
+    "VENDORCOUNTRY": null,
+    "VENDORFORIEGIN": null,
+    "VENDORINFO": null,
+    "VENDORKLS": null,
+    "GEN_ID": 0,
+    "CONTRACT_ID": 0,
+    "VERSION": 0,
+    "FINSRC": [
+      {
+        "id": 109,
+        "NPOS": 1,
+        "KLS": "100010860262877011501040001",
+        "BANKCODE": 14,
+        "BANKACC": "23402000300100001010",
+        "SUMMA": 4350000000,
+        "AVANS": null
+      }
+    ],
+    "SPECIFICATIONS": [
+      {
+        "id": 574,
+        "FINYEAR": 2022,
+        "KLS": "100010860262877011501040001",
+        "NPOS": 1,
+        "TOVAR": "94.99.19.150-00001",
+        "TOVARNAME": "Услуги по организации и проведению торжественного мероприятия",
+        "TOVAREDIZM": "0",
+        "TOVARAMOUNT": 1,
+        "TOVARPRICE": 4350000000,
+        "TOVARSUMMA": 4350000000,
+        "EXPENSE": 44821190,
+        "NOTE": [
+          {
+            "id": 279,
+            "MARKA": null,
+            "TECHSPEC": "торжественноен мероприятии ПФ 300 от 08.06.2022г дог№4 от 10.05.2022г",
+            "MANUFACTURER": null,
+            "COUNTRY": null,
+            "GARANT": null,
+            "GARANTS": null,
+            "GODIZG": null,
+            "GODIZGS": null,
+            "SROKGOD": null,
+            "SROKGODS": null,
+            "LICENSE": null
+          }
+        ],
+        "SPLIT": [
+          {
+            "id": 311,
+            "MONTH": 7,
+            "TOVARAMOUNT": 1
+          }
+        ],
+        "PROPERTIES": [
+          {
+            "id": 1099,
+            "PROP_NUMB": 0,
+            "PROP_NAME": "Единица измерения",
+            "VAL_NUMB": 0,
+            "VAL_NAME": "усл. ед"
+          }
+        ]
+      }
+    ],
+    "GRAFICS": [
+      {
+        "id": 120,
+        "FINYEAR": 2022,
+        "MONTH": 7,
+        "KLS": "100010860262877011501040001",
+        "TOVARSUMMA": 4350000000,
+        "EXPENSE": 44821190,
+        "AVANS": null,
+        "SUMMA": null
+      }
+    ],
+    "LINKS": []
+  }
+}
